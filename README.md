@@ -1,5 +1,6 @@
 # Recursive Directory Cleaner
 
+
 ## Overview
 
 `@kkit/recursive-dir-cleaner` is a tool designed to recursively clean specified directories (e.g., `node_modules`) from a given working directory. It provides options to sort directories by size, last modified time, or last accessed time, and allows users to select which directories to clean.
@@ -11,6 +12,12 @@
 -   Cache directory sizes to improve performance
 -   Interactive prompts to guide the user through the cleaning process
 -   Test directories setup for development and testing purposes
+
+## Quick start
+
+```bash
+npx dcleaner ~/_dev
+```
 
 ## Installation
 
